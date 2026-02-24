@@ -1,49 +1,67 @@
-# Exercícios de Lógica em Python ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<a name="top"></a>
 
-Exercícios de lógica em Python usando `for`, `while`, `if/elif/else` e pequenas ferramentas interativas como chatbot, contador de consoantes, separador de pares/ímpares e soma de positivos/negativos dentro de um programa de terminal interativo.
+<div align="center">
 
----
+# LogicForge
 
-## Funcionalidades
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-O programa oferece várias ferramentas para praticar lógica e raciocínio computacional:
-
-- **Chatbot**: conversa simples usando IA (Groq)  
-- **Impares e pares**: separa números pares e ímpares até um número informado  
-- **Consoantes**: conta e exibe consoantes em uma palavra ou frase  
-- **Soma de positivos e negativos**: calcula a soma de números positivos e negativos separados por espaço  
-- **Máximo e mínimo**: identifica o maior e menor número de uma lista informada  
+</div>
 
 ---
 
-## Como usar
+Everyone starts somewhere. This is where Python started making sense.
 
-1. Clone o repositório:
+LogicForge is a terminal program built while learning the basics — `for`, `while`, `if/elif/else`, string manipulation, list operations. Nothing fancy. But at some point during the build, a question came up: *what would it take to connect this to an actual AI?* The chatbot is the answer to that question. Three lines of Groq API, a loop, and suddenly a terminal program was having conversations.
+
+The tools are small. The logic is simple. But every function here was written to understand something — not to copy it.
+
+---
+
+## What's inside
+
+Type `/` after running to see the full list. Here's what you'll find:
+
+**`chatbot`** — a conversational AI backed by Llama 3 via Groq. Responds in under 500 characters. Type `quit` to exit.
+
+**`impares e pares`** — give it a number, it splits everything from 0 to that number into even and odd lists.
+
+**`consoantes`** — type a word or phrase, it finds and counts every unique consonant.
+
+**`sum`** — separates a list of numbers into positives and negatives, then sums each group.
+
+**`max e min`** — finds the highest and lowest values from a list you provide.
+
+---
+
+## Running locally
 
 ```bash
-git clone https://github.com/seu-usuario/exercicios-logicos-python.git
-cd exercicios-logicos-python
+git clone https://github.com/ScatmanVit/LogicForge.git
 ```
-
-
-
-2. Instale as dependências:
-
+```bash
+cd LogicForge
+```
 ```bash
 pip install -r requirements.txt
 ```
 
-### ⚠️ O chatbot utiliza a API Groq, então você precisa de uma chave de API configurada no .env:
+The chatbot requires a Groq API key. Create a `.env` in the root:
 
-```bash
-GROQ_API_KEY=sua_chave_aqui
 ```
-
-
-
-3. Execute o programa
+GROQ_API_KEY=your_key_here
+```
 
 ```bash
 python main.py
-
 ```
+
+> All other tools work without the API key. Only the chatbot needs it.
+
+<br>
+
+<div align="center">
+
+<a href="#top">↑ back to top</a>
+
+</div>
