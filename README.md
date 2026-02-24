@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# LogicForge
+# LogicTrainingPy
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
@@ -12,7 +12,7 @@
 
 Everyone starts somewhere. This is where Python started making sense.
 
-LogicForge is a terminal program built while learning the basics — `for`, `while`, `if/elif/else`, string manipulation, list operations. Nothing fancy. But at some point during the build, a question came up: *what would it take to connect this to an actual AI?* The chatbot is the answer to that question. Three lines of Groq API, a loop, and suddenly a terminal program was having conversations.
+LogicTrainingPy is a terminal program built while learning the basics — `for`, `while`, `if/elif/else`, string manipulation, list operations. Nothing fancy. But at some point during the build, a question came up: *what would it take to connect this to an actual AI?* The chatbot is the answer to that question. Three lines of Groq API, a loop, and suddenly a terminal program was having conversations.
 
 The tools are small. The logic is simple. But every function here was written to understand something — not to copy it.
 
@@ -37,10 +37,10 @@ Type `/` after running to see the full list. Here's what you'll find:
 ## Running locally
 
 ```bash
-git clone https://github.com/ScatmanVit/LogicForge.git
+git clone https://github.com/ScatmanVit/LogicTrainingPy.git
 ```
 ```bash
-cd LogicForge
+cd LogicTrainingPy
 ```
 ```bash
 pip install -r requirements.txt
@@ -65,3 +65,4 @@ python main.py
 <a href="#top">↑ back to top</a>
 
 </div>
+
