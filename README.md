@@ -37,7 +37,7 @@ Type `/` after running to see the full list. Here's what you'll find:
 ## Running locally
 
 ```bash
-git clone https://github.com/ScatmanVit/LogicTrainingPy.git
+git clone https://github.com/vitorbaradel/LogicTrainingPy.git
 ```
 ```bash
 cd LogicTrainingPy
